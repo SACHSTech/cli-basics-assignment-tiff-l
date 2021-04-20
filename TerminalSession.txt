@@ -1,0 +1,29 @@
+~/cli-basics-assignment-tiff-l-1$ pwd
+/home/runner/cli-basics-assignment-tiff-l-1
+~/cli-basics-assignment-tiff-l-1$ mkdir CLIBasicsFolder.txt
+~/cli-basics-assignment-tiff-l-1$ ls
+CLIBasicsFolder      README.md
+CLIBasicsFolder.txt  TerminalSession.txt
+~/cli-basics-assignment-tiff-l-1$ cd CLIBasicsFolder
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ pwd
+/home/runner/cli-basics-assignment-tiff-l-1/CLIBasicsFolder
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ echo Tiffany Lee ICS4U >> myfile.txt
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ cat myfile.txt
+Tiffany Lee ICS4U
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ ls
+myfile2.txt  myfile.txt
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ mv myfile2.txt ~
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ ls ~
+cli-basics-assignment-tiff-l-1  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-tiff-l-1/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-tiff-l-1$ rm -r CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-tiff-l-1$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-tiff-l-1$ ls ~
+cli-basics-assignment-tiff-l-1  myfile2.txt  _test_runner.py
